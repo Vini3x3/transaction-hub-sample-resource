@@ -25,6 +25,6 @@ import:
           TO-HSBC-SAVING:
             - "CR TO 058-719847-343"
           TO-BOC:
-            - "CHU C** H***"
+            - "CHAN T** H***"
           TO-CITI:
             - "CHAN TAI MAN 250 ITFP"
