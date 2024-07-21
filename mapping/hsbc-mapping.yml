@@ -1,0 +1,30 @@
+import:
+  account:
+    HSBC:
+      mapper-config:
+        date-header: Date
+        description-header: Description
+        delta-header: Billing amount
+        balance-header: Balance
+        account: HSBC-SAVING
+        date-pattern: yyyy/MM/dd
+      system-tagger-config:
+        SCHEDULE:
+          INTEREST:
+            - "CREDIT INTEREST"
+          SALARY:
+            - "REC HKD"
+        WALLET:
+          ATM:
+            - "ATM WITHDRAWAL"
+          OCTOPUS:
+            - "OCTOPUS"
+          CREDIT-CARD:
+            - "6546-7578-5728-3635"
+        TRANSFER:
+          TO-HSBC-SAVING:
+            - "CR TO 058-719847-343"
+          TO-BOC:
+            - "CHU C** H***"
+          TO-CITI:
+            - "CHI HANG CHU 250 ITFP"

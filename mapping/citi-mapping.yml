@@ -1,0 +1,21 @@
+import:
+  account:
+    BOC:
+      mapper-config:
+        date-header: Transaction Date
+        description-header: Description
+        withdrawal-header: Withdrawal
+        deposit-header: Deposit
+        balance-header: Balance
+        account: CITI
+        date-pattern: MM/dd/yy
+      system-tagger-config:
+        INVEST:
+          BROKER-A:
+            - "332210160RGPL"
+          INTEREST:
+            - "Interest Credit"
+            - "Bonus Interest Cr FOR FUND IN CATEGORY"
+        TRANSFER:
+          FROM-HSBC:
+            - "HONG KONG & SHANGHAI BANK"

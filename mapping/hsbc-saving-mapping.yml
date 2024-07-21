@@ -1,0 +1,17 @@
+import:
+  account:
+    BOC:
+      mapper-config:
+        date-header: Date
+        description-header: Description
+        delta-header: Billing amount
+        balance-header: Balance
+        account: HSBC-SAVING
+        date-pattern: yyyy/MM/dd
+      system-tagger-config:
+        SCHEDULE:
+          INTEREST:
+            - "CREDIT INTEREST"
+        TRANSFER:
+          FROM-HSBC:
+            - "CHAN TAI MAN"
