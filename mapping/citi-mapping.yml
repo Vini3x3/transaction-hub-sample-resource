@@ -1,6 +1,8 @@
 import:
   account:
     BOC:
+      extractor-config:
+        delimiter: '|'
       mapper-config:
         date-header: Transaction Date
         description-header: Description
