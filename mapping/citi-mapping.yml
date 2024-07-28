@@ -1,6 +1,6 @@
 import:
   account:
-    BOC:
+    CITI:
       extractor-config:
         delimiter: '|'
       mapper-config:

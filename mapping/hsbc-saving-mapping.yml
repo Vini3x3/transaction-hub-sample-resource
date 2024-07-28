@@ -1,6 +1,6 @@
 import:
   account:
-    BOC:
+    HSBC_SAVE:
       mapper-config:
         date-header: Date
         description-header: Description
