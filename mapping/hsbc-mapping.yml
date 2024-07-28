@@ -7,7 +7,7 @@ import:
         delta-header: Billing amount
         balance-header: Balance
         account: HSBC-SAVING
-        date-pattern: yyyy/MM/dd
+        date-pattern: dd/MM/yyyy
       system-tagger-config:
         SCHEDULE:
           INTEREST:
